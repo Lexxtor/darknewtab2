@@ -1,0 +1,10 @@
+{
+    "name": "Dark New Tab 2",
+    "description": "A minimalistic dark new tab page for Google Chrome. No external network requests. No analytics. No tracking. No bullshit.",
+    "version": "2.0",
+    "incognito": "split",
+    "permissions": ["bookmarks", "favicon"],
+    "chrome_url_overrides": { "newtab": "darknewtab.html" },
+    "manifest_version": 3,
+    "homepage_url": "https://github.com/lexxtor/darknewtab2"
+}

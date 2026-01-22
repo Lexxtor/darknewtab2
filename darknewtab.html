@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>new tab</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ccc;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            width: 40%;
+            overflow: hidden;
+            margin-top: 4%;
+        }
+        a {
+            text-decoration: none;
+            color: #ccc;
+            padding: 8px 0;
+            display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis; /* добавить "..." в конце */
+            overflow: hidden;
+            width: 100%;
+        }
+        a:hover {
+            background-color: #222;
+        }
+    </style>
+    <script src="newtab.js"></script>
+</head>
+<body>
+      <ul id="bookmarks-list"></ul>
+</body>
+</html>
